@@ -1,0 +1,48 @@
+html {
+    --s: 191px;
+    --c1: #1d1d1d;
+    --c2: #4e4f51;
+    --c3: #3c3c3c;
+    
+    background:
+      repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%) 
+       calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+      repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
+    background-size: var(--s) calc(var(--s)*tan(30deg));
+  }
+
+  .container{
+    position: relative;
+    left: 230px;
+    height: 580px;
+    width: 850px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: radial-gradient( circle farthest-corner at 50.3% 55.8%,  rgba(239,0,0,1) 0.8%, rgba(93,17,17,1) 100.2% );
+
+  }
+
+  .formulario{
+ 
+    height: 500px;
+    color: white;
+  }
+
+
+  .title{
+    position: relative;
+    left: 230px;
+    color: white;
+    margin-bottom: 20px;
+    top: 10px;
+  }
+table{
+    position: relative;
+    left: 230px;
+    top: 10px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}
